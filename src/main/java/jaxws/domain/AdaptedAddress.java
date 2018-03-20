@@ -4,7 +4,7 @@ public class AdaptedAddress {
 
     private int id;
     private String street;
-    private int number;
+    private String number;
     private String postalCode;
     private String city;
     private String country;
@@ -29,11 +29,11 @@ public class AdaptedAddress {
         this.street = street;
     }
 
-    public int getNumber() {
+    public String getNumber() {
         return number;
     }
 
-    public void setNumber(int number) {
+    public void setNumber(String number) {
         this.number = number;
     }
 

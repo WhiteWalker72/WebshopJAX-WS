@@ -14,7 +14,7 @@ public class GiroServiceImpl implements GiroService {
     }
 
     @Override
-    public BigInteger getRandomNumber(String customerName, String street, int streetNumber, String postalCode, String city, String country, double payment) {
+    public BigInteger getRandomNumber(String customerName, String street, String streetNumber, String postalCode, String city, String country, double payment) {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < getRandom(20, 30); i++) {
             builder.append(getRandom(0, 9));
